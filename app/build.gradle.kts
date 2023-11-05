@@ -2,7 +2,6 @@ plugins {
     id("com.android.application")
 }
 
-
 android {
     namespace = "com.example.ezypay"
     compileSdk = 34
@@ -39,6 +38,9 @@ android {
 dependencies {
 
     implementation ("com.razorpay:checkout:1.6.33")
+
+    implementation ("com.razorpay:razorpay-java:1.4.4")
+
 
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
